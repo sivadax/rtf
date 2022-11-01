@@ -2,6 +2,10 @@
 
 `kubectl get node `
 
+**Get all pods running in a K8 Cluster**
+
+`kubectl get pods --all-namespaces`
+
 **Get list of Pods running in a Single Node**
 *Replace the IP Address with the node name or node ipadress from the command above*
 
@@ -30,6 +34,10 @@
 **Create a Name Space**
 
 `kubectl create ns mynamespace`
+
+**Get logs from a single running pod**
+
+kubectl logs dns-app-install-37508f-fhmgl -n kube-system
 
 
 
