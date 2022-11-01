@@ -37,7 +37,7 @@
 
 **Get logs from a single running pod**
 
-kubectl logs dns-app-install-37508f-fhmgl -n kube-system
+`kubectl logs dns-app-install-37508f-fhmgl -n kube-system`
 
 
 
